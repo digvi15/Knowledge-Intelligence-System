@@ -218,3 +218,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets / credentials
+*.pem
+*.key
+
+# Local databases
+*.sqlite
+*.sqlite3
+
+# Local vector stores
+chroma_db/
+chroma/
